@@ -1,0 +1,76 @@
+* Starting client
+* Connecting to master process on port 2192
+* Analyzing classpath: 
+  - C:\Users\BricePC\Desktop\rjcs\target\test-classes
+  - C:\Users\BricePC\Desktop\rjcs\target\classes
+  - C:\Users\BricePC\.m2\repository\junit\junit\4.12\junit-4.12.jar
+  - C:\Users\BricePC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.BooleanUtils
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 18:01:22.343 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\BricePC\Desktop\rjcs\.evosuite\evosuite-seeds\org.apache.commons.lang3.BooleanUtils.seed
+* Loaded 0 tests from C:\Users\BricePC\Desktop\rjcs\.evosuite\evosuite-seeds\org.apache.commons.lang3.BooleanUtils.seed
+* Total number of test goals: 
+  - Line 174
+  - Branch 251
+  - Exception 0
+  - MutationFactory 797
+  - Output 176
+  - Method 43
+  - MethodNoException 43
+  - CBranchFitnessFactory 251
+* Using seed 1686391280469
+* Starting evolution
+* Search finished after 31s and 123 generations, 78409 statements, best individual has fitness: 298.21434533689427
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 97%
+* Total number of goals: 174
+* Number of covered goals: 169
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 79%
+* Total number of goals: 251
+* Number of covered goals: 199
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 95%
+* Total number of goals: 797
+* Number of covered goals: 757
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 82%
+* Total number of goals: 176
+* Number of covered goals: 145
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 43
+* Number of covered goals: 43
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 43
+* Number of covered goals: 43
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 79%
+* Total number of goals: 251
+* Number of covered goals: 199
+* Generated 136 tests with total length 241
+* Resulting test suite's coverage: 91% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 64%
+* Compiling and checking tests
+* Writing JUnit test case 'BooleanUtils_ESTest' to C:\Users\BricePC\Desktop\rjcs\.evosuite\tmp_2023_06_10_18_01_17\tests
+* Done!
+
